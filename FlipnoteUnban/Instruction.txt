@@ -1,0 +1,30 @@
+Requirements:
+
+- Modded DSi (with Homebrew capability)
+- Twilight Menu
+- Flipnote Studio installed under "SDCARD:/roms/dsiware"
+
+
+1. Locate your public.sav file. It can be found in "SDCARD:/roms/dsiware/saves". The file should have the same name as Flipnote Studio but with a different file extension (Save file from Flipnote Studio).
+
+2. Copy the public.sav file (ideally, rename it to "public.sav") and paste it in the same directory as the FlipUnban.exe file. Make a note of the original file name (with the extension).
+
+3. Open the command prompt (CMD) and navigate to the directory where the FlipUnban.exe file is located.
+
+4. In the command prompt, type: "FlipUnban.exe -o option.bin public.sav". This command will generate an option.bin file.
+
+5. Run "FlipUnban.exe option.bin". The FlipUnban tool will generate a custom FSID. Make sure to note down the generated cheat code.
+
+6. Now, execute the command: "FOP.exe option.bin". This step ensures that the option.bin file is checksummed, allowing Flipnote Studio to accept your modified option.bin without deleting it.
+
+7. Use the following command: "FlipUnban.exe -i option.bin public.sav". This command will inject the modified option.bin file back into the public.sav file.
+
+8. Put the public.sav file back into its original location. Remember to rename it to the actual name noted in step 2. This renaming is necessary for Twilight Menu to detect your save file correctly.
+
+9. Open Twilight Menu, go to Flipnote Studio, and you should see your new FSID (Flipnote Studio ID). Press L + D-Pad Down + Select to open NDS-Bootstrap. Navigate to the "RAM-Viewer" and press Y. Enter the generated cheat code and apply the changes.
+
+
+DONE!
+
+Please note that these instructions assume you have a modded DSi with Homebrew capabilities, and you have properly installed Twilight Menu and Flipnote Studio. 
+Take care to follow the steps precisely, and if you encounter any issues, refer to relevant resources or seek assistance from the Homebrew community.
